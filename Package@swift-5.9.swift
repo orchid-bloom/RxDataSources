@@ -23,6 +23,5 @@ let package = Package(
       .product(name: "RxCocoa", package: "RxSwift"),
     ]),
     .target(name: "Differentiator")
-  ],
-  swiftLanguageModes: [.v5]
+  ]
 )
